@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico" />
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="pokedex">
+            <img src="./imagen/logo-pokedex.png" alt="pokedex">
+        </div>
+
+
+    </header>
+
+    <section class="content" id="listpoke">
+        <ol id="listpokemon" class="pokemons">
+            <!-- LISTA POKEMONS -->
+        </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Mais Pokemons
+            </button>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+        integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/model-pokemon.js"></script>
+    <script src="./js/fun_api.js"></script>
+    <script src="./js/main.js"></script>
+
+    <footer class="footer-container">
+        <div class="cont-name">
+            <h6 class="name"> Pokedex 2022| Todos os direitos reservados.</h6>
+            <h6 class="name"> &copy; Direitos reservados: Luana Araruna.</h6>
+        </div>
+
+        <div class="cont-rede-social">
+            <li>
+                <h6 class="rede"><a href="https://github.com/CodesdaLu"><img src="./imagen/git.png" alt="github"> Github
+                    </a></h6>
+            </li>
+
+            <li>
+                <h6 class="rede"><a href="https://github.com/CodesdaLu"><img src="./imagen/insta.png" alt="github">
+                        Instagram </a></h6>
+            </li>
+        </div>
+    </footer>
+</body>
+
+</html>

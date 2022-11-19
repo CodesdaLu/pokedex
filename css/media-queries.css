@@ -1,0 +1,192 @@
+@media only screen and (max-width: 436px) and (min-width: 320px){
+    .pokemons {
+        grid-template-columns: 1fr;}
+        
+    .pokemon {
+        height: 91px;
+        margin-left: -39px;
+        width: 90%;
+        margin-top: -206px;
+        margin-bottom: 236px;
+    }
+
+    .header .pokedex img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50%;
+        margin-top: 5%;
+        margin-left: 18%;
+        /* width: 210px; */
+        margin-right: 10%;
+        height: 78px;
+    }
+
+    .pagination button {
+        padding: 0.25rem 0.5rem;
+        margin: 4.25rem 0;
+        font-size: .625rem;
+        color: #fff;
+        background-color: #4052d9;
+        border: none;
+        border-radius: 1rem;
+        margin-top: -323px;
+    }
+
+    .pokemon .detail img {
+        max-width: 100%;
+        height: 60px;
+        align-self: center;
+        margin: 22px;
+        margin-left: 30%;
+        margin-top: -5%;
+    }
+}
+     
+
+@media only screen and (max-width: 500px) and (min-width: 437px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr;}
+
+        .pokemon {
+            height: 91px;
+            margin-left: -20%;
+            width: 139px;
+            margin-top: 31px;
+            margin-bottom: -1%;
+            margin-right: 2;
+            height: 109px;
+        }
+
+    
+        .pokemon .detail img {
+            max-width: 100%;
+            height: 73px;
+            align-self: center;
+            margin: 1px;
+            margin-left: 0px;
+        }
+
+        .header .pokedex img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: -3rem;
+            margin-top: 0.10000000000000142rem;
+            margin-left: 18.5%;
+            height: 97px;
+        }
+   
+ 
+        
+}
+
+@media only screen and (max-width: 600px) and (min-width: 501px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr;}
+
+
+        .pokemon {
+            height: 91px;
+            margin-left: -7%;;
+            width: 139px;
+            margin-top: 31px;
+            margin-bottom: -1%;
+            margin-right: 2;
+            /* margin: 1rem; */
+            height: 109px;
+        }
+
+    
+        .pokemon .detail img {
+            max-width: 100%;
+            height: 73px;
+            align-self: center;
+            margin: 1px;
+            margin-left: 0px;
+        }
+
+        .header .pokedex img {
+            margin-left: 20%;
+            height: 97px;
+        }
+
+    }
+@media only screen and (max-width: 800px) and (min-width: 601px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;}
+
+.header .pokedex img{
+    margin-left: 12rem;
+    height: 116px;
+}
+
+.pokemon{
+    width: 183px;
+    margin: 1.0999999999999996rem;
+    margin-left: -41px;
+    margin-right: 5rem;
+    justify-items: auto;
+}
+}
+@media only screen and (max-width: 961px) and (min-width: 801px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;}
+
+        .pokemon {
+            width: 213px;
+            margin-top: 0rem;
+            margin-bottom: 2rem;
+            margin-left: -2.3000000000000007rem;
+            margin-right: -1rem;
+            align-self: start;
+        }
+
+.header .pokedex img{
+    margin-left: 14rem;
+    height: 131px;
+}
+.pagination button{
+    margin: 1.25rem 0;
+}
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 962px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;}
+
+.pokemon{
+    margin: 1rem;
+    margin-left: -1rem;
+    margin-right: 6rem;
+}
+.header .pokedex img{
+    margin-left: 15rem;
+}
+.pagination button{
+    margin: -0.75rem 0;
+}
+}
+
+@media only screen and (max-width: 1281px) and (min-width: 1026px){
+
+.pokemons {
+    grid-template-columns: 1fr 1fr 1fr;}    
+
+.pokemon{
+    margin-left:  2.7rem;
+}   
+.header .pokedex img{
+    margin-left: 23rem;
+} 
+}
+
+@media only screen and (max-width: 1466px) and (min-width: 1281px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .pokemon{
+        margin-left: -0.2999999999999998rem;;
+     }
+
+    .header .pokedex img{
+        margin-left: 28rem;
+    }
+}
