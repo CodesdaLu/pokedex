@@ -1,2 +1,8 @@
-# pokedex.github.io
- Pokedex utilizando a PokeAPI
+# Pokedex
+ 
+##### Pokedex foi criada com objetivo de utilizar a PokeAPI e por em pratica
+
+
+
+
+
