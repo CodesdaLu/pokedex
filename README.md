@@ -8,7 +8,7 @@ Foi otimizado para varias medias queries para:
 
 Baixo esta o site para ser visualizado.
 
-[Clique aqui](www.codesdalu.github.io/pokedex)
+[Clique aqui](https://codesdalu.github.io/pokedex/)
 
 
 
