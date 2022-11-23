@@ -3,9 +3,9 @@
         grid-template-columns: 1fr;}
         
     .pokemon {
-        height: 91px;
+        height: 207px;
         margin-left: -39px;
-        width: 90%;
+        width: 100%;
         margin-top: -206px;
         margin-bottom: 236px;
     }
@@ -39,6 +39,10 @@
         margin: 22px;
         margin-left: 30%;
         margin-top: -5%;
+    }
+
+    .pokemon .detail .abilities .ability{
+        margin-left: 6rem;
     }
 }
      

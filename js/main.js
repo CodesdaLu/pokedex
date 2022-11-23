@@ -20,6 +20,15 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+            <p>Abilities</p>
+            
+            <div class="detail">
+        
+                <ol class="abilities">
+                ${pokemon.abilities.map((ability) => `<li class="ability">${ability}</li>`).join('')}
+                </ol>
+        
+            </div>                        
         </li>
     `
 }
@@ -48,6 +57,8 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+
 
 
 
