@@ -1,6 +1,12 @@
 ![Legenda](/imagen/logo-pokedex.png)
  
 ### Pokedex foi criada utilizando a PokeAPI
+
+Utilizando:
+* HTML
+* CSS
+* Javascript
+
 Foi otimizado para varias medias queries para:
 * Celulares
 * Tablets
